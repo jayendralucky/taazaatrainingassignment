@@ -1,0 +1,16 @@
+C:\day4assignment\day4assign\day4assingnment1\bin\Debug\net5.0\day4assingnment1.exe
+C:\day4assignment\day4assign\day4assingnment1\bin\Debug\net5.0\day4assingnment1.deps.json
+C:\day4assignment\day4assign\day4assingnment1\bin\Debug\net5.0\day4assingnment1.runtimeconfig.json
+C:\day4assignment\day4assign\day4assingnment1\bin\Debug\net5.0\day4assingnment1.runtimeconfig.dev.json
+C:\day4assignment\day4assign\day4assingnment1\bin\Debug\net5.0\day4assingnment1.dll
+C:\day4assignment\day4assign\day4assingnment1\bin\Debug\net5.0\ref\day4assingnment1.dll
+C:\day4assignment\day4assign\day4assingnment1\bin\Debug\net5.0\day4assingnment1.pdb
+C:\day4assignment\day4assign\day4assingnment1\obj\Debug\net5.0\day4assingnment1.csproj.AssemblyReference.cache
+C:\day4assignment\day4assign\day4assingnment1\obj\Debug\net5.0\day4assingnment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\day4assignment\day4assign\day4assingnment1\obj\Debug\net5.0\day4assingnment1.AssemblyInfoInputs.cache
+C:\day4assignment\day4assign\day4assingnment1\obj\Debug\net5.0\day4assingnment1.AssemblyInfo.cs
+C:\day4assignment\day4assign\day4assingnment1\obj\Debug\net5.0\day4assingnment1.csproj.CoreCompileInputs.cache
+C:\day4assignment\day4assign\day4assingnment1\obj\Debug\net5.0\day4assingnment1.dll
+C:\day4assignment\day4assign\day4assingnment1\obj\Debug\net5.0\ref\day4assingnment1.dll
+C:\day4assignment\day4assign\day4assingnment1\obj\Debug\net5.0\day4assingnment1.pdb
+C:\day4assignment\day4assign\day4assingnment1\obj\Debug\net5.0\day4assingnment1.genruntimeconfig.cache
