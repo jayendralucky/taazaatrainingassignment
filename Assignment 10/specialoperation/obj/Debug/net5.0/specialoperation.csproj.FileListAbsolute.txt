@@ -1,0 +1,16 @@
+C:\day8p\specialoperation\bin\Debug\net5.0\specialoperation.exe
+C:\day8p\specialoperation\bin\Debug\net5.0\specialoperation.deps.json
+C:\day8p\specialoperation\bin\Debug\net5.0\specialoperation.runtimeconfig.json
+C:\day8p\specialoperation\bin\Debug\net5.0\specialoperation.runtimeconfig.dev.json
+C:\day8p\specialoperation\bin\Debug\net5.0\specialoperation.dll
+C:\day8p\specialoperation\bin\Debug\net5.0\ref\specialoperation.dll
+C:\day8p\specialoperation\bin\Debug\net5.0\specialoperation.pdb
+C:\day8p\specialoperation\obj\Debug\net5.0\specialoperation.csproj.AssemblyReference.cache
+C:\day8p\specialoperation\obj\Debug\net5.0\specialoperation.GeneratedMSBuildEditorConfig.editorconfig
+C:\day8p\specialoperation\obj\Debug\net5.0\specialoperation.AssemblyInfoInputs.cache
+C:\day8p\specialoperation\obj\Debug\net5.0\specialoperation.AssemblyInfo.cs
+C:\day8p\specialoperation\obj\Debug\net5.0\specialoperation.csproj.CoreCompileInputs.cache
+C:\day8p\specialoperation\obj\Debug\net5.0\specialoperation.dll
+C:\day8p\specialoperation\obj\Debug\net5.0\ref\specialoperation.dll
+C:\day8p\specialoperation\obj\Debug\net5.0\specialoperation.pdb
+C:\day8p\specialoperation\obj\Debug\net5.0\specialoperation.genruntimeconfig.cache

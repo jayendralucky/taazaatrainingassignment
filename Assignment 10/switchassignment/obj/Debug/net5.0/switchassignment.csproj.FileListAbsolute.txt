@@ -1,0 +1,16 @@
+C:\switchassignment\obj\Debug\net5.0\switchassignment.csproj.AssemblyReference.cache
+C:\switchassignment\obj\Debug\net5.0\switchassignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\switchassignment\obj\Debug\net5.0\switchassignment.AssemblyInfoInputs.cache
+C:\switchassignment\obj\Debug\net5.0\switchassignment.AssemblyInfo.cs
+C:\switchassignment\obj\Debug\net5.0\switchassignment.csproj.CoreCompileInputs.cache
+C:\switchassignment\bin\Debug\net5.0\switchassignment.exe
+C:\switchassignment\bin\Debug\net5.0\switchassignment.deps.json
+C:\switchassignment\bin\Debug\net5.0\switchassignment.runtimeconfig.json
+C:\switchassignment\bin\Debug\net5.0\switchassignment.runtimeconfig.dev.json
+C:\switchassignment\bin\Debug\net5.0\switchassignment.dll
+C:\switchassignment\bin\Debug\net5.0\ref\switchassignment.dll
+C:\switchassignment\bin\Debug\net5.0\switchassignment.pdb
+C:\switchassignment\obj\Debug\net5.0\switchassignment.dll
+C:\switchassignment\obj\Debug\net5.0\ref\switchassignment.dll
+C:\switchassignment\obj\Debug\net5.0\switchassignment.pdb
+C:\switchassignment\obj\Debug\net5.0\switchassignment.genruntimeconfig.cache
