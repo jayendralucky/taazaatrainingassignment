@@ -1,0 +1,16 @@
+C:\day9\arrayassinthree\obj\Debug\net5.0\arrayassinthree.csproj.AssemblyReference.cache
+C:\day9\arrayassinthree\obj\Debug\net5.0\arrayassinthree.GeneratedMSBuildEditorConfig.editorconfig
+C:\day9\arrayassinthree\obj\Debug\net5.0\arrayassinthree.AssemblyInfoInputs.cache
+C:\day9\arrayassinthree\obj\Debug\net5.0\arrayassinthree.AssemblyInfo.cs
+C:\day9\arrayassinthree\obj\Debug\net5.0\arrayassinthree.csproj.CoreCompileInputs.cache
+C:\day9\arrayassinthree\bin\Debug\net5.0\arrayassinthree.exe
+C:\day9\arrayassinthree\bin\Debug\net5.0\arrayassinthree.deps.json
+C:\day9\arrayassinthree\bin\Debug\net5.0\arrayassinthree.runtimeconfig.json
+C:\day9\arrayassinthree\bin\Debug\net5.0\arrayassinthree.runtimeconfig.dev.json
+C:\day9\arrayassinthree\bin\Debug\net5.0\arrayassinthree.dll
+C:\day9\arrayassinthree\bin\Debug\net5.0\ref\arrayassinthree.dll
+C:\day9\arrayassinthree\bin\Debug\net5.0\arrayassinthree.pdb
+C:\day9\arrayassinthree\obj\Debug\net5.0\arrayassinthree.dll
+C:\day9\arrayassinthree\obj\Debug\net5.0\ref\arrayassinthree.dll
+C:\day9\arrayassinthree\obj\Debug\net5.0\arrayassinthree.pdb
+C:\day9\arrayassinthree\obj\Debug\net5.0\arrayassinthree.genruntimeconfig.cache

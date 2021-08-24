@@ -1,0 +1,16 @@
+C:\day7\predicatedelegate\bin\Debug\net5.0\predicatedelegate.exe
+C:\day7\predicatedelegate\bin\Debug\net5.0\predicatedelegate.deps.json
+C:\day7\predicatedelegate\bin\Debug\net5.0\predicatedelegate.runtimeconfig.json
+C:\day7\predicatedelegate\bin\Debug\net5.0\predicatedelegate.runtimeconfig.dev.json
+C:\day7\predicatedelegate\bin\Debug\net5.0\predicatedelegate.dll
+C:\day7\predicatedelegate\bin\Debug\net5.0\ref\predicatedelegate.dll
+C:\day7\predicatedelegate\bin\Debug\net5.0\predicatedelegate.pdb
+C:\day7\predicatedelegate\obj\Debug\net5.0\predicatedelegate.csproj.AssemblyReference.cache
+C:\day7\predicatedelegate\obj\Debug\net5.0\predicatedelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\day7\predicatedelegate\obj\Debug\net5.0\predicatedelegate.AssemblyInfoInputs.cache
+C:\day7\predicatedelegate\obj\Debug\net5.0\predicatedelegate.AssemblyInfo.cs
+C:\day7\predicatedelegate\obj\Debug\net5.0\predicatedelegate.csproj.CoreCompileInputs.cache
+C:\day7\predicatedelegate\obj\Debug\net5.0\predicatedelegate.dll
+C:\day7\predicatedelegate\obj\Debug\net5.0\ref\predicatedelegate.dll
+C:\day7\predicatedelegate\obj\Debug\net5.0\predicatedelegate.pdb
+C:\day7\predicatedelegate\obj\Debug\net5.0\predicatedelegate.genruntimeconfig.cache

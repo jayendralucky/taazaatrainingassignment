@@ -1,0 +1,16 @@
+C:\day9\arrayassintwo\bin\Debug\net5.0\arrayassintwo.exe
+C:\day9\arrayassintwo\bin\Debug\net5.0\arrayassintwo.deps.json
+C:\day9\arrayassintwo\bin\Debug\net5.0\arrayassintwo.runtimeconfig.json
+C:\day9\arrayassintwo\bin\Debug\net5.0\arrayassintwo.runtimeconfig.dev.json
+C:\day9\arrayassintwo\bin\Debug\net5.0\arrayassintwo.dll
+C:\day9\arrayassintwo\bin\Debug\net5.0\ref\arrayassintwo.dll
+C:\day9\arrayassintwo\bin\Debug\net5.0\arrayassintwo.pdb
+C:\day9\arrayassintwo\obj\Debug\net5.0\arrayassintwo.csproj.AssemblyReference.cache
+C:\day9\arrayassintwo\obj\Debug\net5.0\arrayassintwo.GeneratedMSBuildEditorConfig.editorconfig
+C:\day9\arrayassintwo\obj\Debug\net5.0\arrayassintwo.AssemblyInfoInputs.cache
+C:\day9\arrayassintwo\obj\Debug\net5.0\arrayassintwo.AssemblyInfo.cs
+C:\day9\arrayassintwo\obj\Debug\net5.0\arrayassintwo.csproj.CoreCompileInputs.cache
+C:\day9\arrayassintwo\obj\Debug\net5.0\arrayassintwo.dll
+C:\day9\arrayassintwo\obj\Debug\net5.0\ref\arrayassintwo.dll
+C:\day9\arrayassintwo\obj\Debug\net5.0\arrayassintwo.pdb
+C:\day9\arrayassintwo\obj\Debug\net5.0\arrayassintwo.genruntimeconfig.cache

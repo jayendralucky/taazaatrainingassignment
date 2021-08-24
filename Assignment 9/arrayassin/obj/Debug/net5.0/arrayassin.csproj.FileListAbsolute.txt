@@ -1,0 +1,16 @@
+C:\day9\arrayassin\bin\Debug\net5.0\arrayassin.exe
+C:\day9\arrayassin\bin\Debug\net5.0\arrayassin.deps.json
+C:\day9\arrayassin\bin\Debug\net5.0\arrayassin.runtimeconfig.json
+C:\day9\arrayassin\bin\Debug\net5.0\arrayassin.runtimeconfig.dev.json
+C:\day9\arrayassin\bin\Debug\net5.0\arrayassin.dll
+C:\day9\arrayassin\bin\Debug\net5.0\ref\arrayassin.dll
+C:\day9\arrayassin\bin\Debug\net5.0\arrayassin.pdb
+C:\day9\arrayassin\obj\Debug\net5.0\arrayassin.csproj.AssemblyReference.cache
+C:\day9\arrayassin\obj\Debug\net5.0\arrayassin.GeneratedMSBuildEditorConfig.editorconfig
+C:\day9\arrayassin\obj\Debug\net5.0\arrayassin.AssemblyInfoInputs.cache
+C:\day9\arrayassin\obj\Debug\net5.0\arrayassin.AssemblyInfo.cs
+C:\day9\arrayassin\obj\Debug\net5.0\arrayassin.csproj.CoreCompileInputs.cache
+C:\day9\arrayassin\obj\Debug\net5.0\arrayassin.dll
+C:\day9\arrayassin\obj\Debug\net5.0\ref\arrayassin.dll
+C:\day9\arrayassin\obj\Debug\net5.0\arrayassin.pdb
+C:\day9\arrayassin\obj\Debug\net5.0\arrayassin.genruntimeconfig.cache

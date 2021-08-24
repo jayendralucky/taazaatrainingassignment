@@ -1,0 +1,16 @@
+C:\day7\Anonymousandlambda\bin\Debug\net5.0\Anonymousandlambda.exe
+C:\day7\Anonymousandlambda\bin\Debug\net5.0\Anonymousandlambda.deps.json
+C:\day7\Anonymousandlambda\bin\Debug\net5.0\Anonymousandlambda.runtimeconfig.json
+C:\day7\Anonymousandlambda\bin\Debug\net5.0\Anonymousandlambda.runtimeconfig.dev.json
+C:\day7\Anonymousandlambda\bin\Debug\net5.0\Anonymousandlambda.dll
+C:\day7\Anonymousandlambda\bin\Debug\net5.0\ref\Anonymousandlambda.dll
+C:\day7\Anonymousandlambda\bin\Debug\net5.0\Anonymousandlambda.pdb
+C:\day7\Anonymousandlambda\obj\Debug\net5.0\Anonymousandlambda.csproj.AssemblyReference.cache
+C:\day7\Anonymousandlambda\obj\Debug\net5.0\Anonymousandlambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\day7\Anonymousandlambda\obj\Debug\net5.0\Anonymousandlambda.AssemblyInfoInputs.cache
+C:\day7\Anonymousandlambda\obj\Debug\net5.0\Anonymousandlambda.AssemblyInfo.cs
+C:\day7\Anonymousandlambda\obj\Debug\net5.0\Anonymousandlambda.csproj.CoreCompileInputs.cache
+C:\day7\Anonymousandlambda\obj\Debug\net5.0\Anonymousandlambda.dll
+C:\day7\Anonymousandlambda\obj\Debug\net5.0\ref\Anonymousandlambda.dll
+C:\day7\Anonymousandlambda\obj\Debug\net5.0\Anonymousandlambda.pdb
+C:\day7\Anonymousandlambda\obj\Debug\net5.0\Anonymousandlambda.genruntimeconfig.cache
