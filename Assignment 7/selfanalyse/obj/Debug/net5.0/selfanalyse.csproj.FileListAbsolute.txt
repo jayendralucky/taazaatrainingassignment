@@ -1,0 +1,16 @@
+C:\day6\day6\selfanalyse\bin\Debug\net5.0\selfanalyse.exe
+C:\day6\day6\selfanalyse\bin\Debug\net5.0\selfanalyse.deps.json
+C:\day6\day6\selfanalyse\bin\Debug\net5.0\selfanalyse.runtimeconfig.json
+C:\day6\day6\selfanalyse\bin\Debug\net5.0\selfanalyse.runtimeconfig.dev.json
+C:\day6\day6\selfanalyse\bin\Debug\net5.0\selfanalyse.dll
+C:\day6\day6\selfanalyse\bin\Debug\net5.0\ref\selfanalyse.dll
+C:\day6\day6\selfanalyse\bin\Debug\net5.0\selfanalyse.pdb
+C:\day6\day6\selfanalyse\obj\Debug\net5.0\selfanalyse.csproj.AssemblyReference.cache
+C:\day6\day6\selfanalyse\obj\Debug\net5.0\selfanalyse.GeneratedMSBuildEditorConfig.editorconfig
+C:\day6\day6\selfanalyse\obj\Debug\net5.0\selfanalyse.AssemblyInfoInputs.cache
+C:\day6\day6\selfanalyse\obj\Debug\net5.0\selfanalyse.AssemblyInfo.cs
+C:\day6\day6\selfanalyse\obj\Debug\net5.0\selfanalyse.csproj.CoreCompileInputs.cache
+C:\day6\day6\selfanalyse\obj\Debug\net5.0\selfanalyse.dll
+C:\day6\day6\selfanalyse\obj\Debug\net5.0\ref\selfanalyse.dll
+C:\day6\day6\selfanalyse\obj\Debug\net5.0\selfanalyse.pdb
+C:\day6\day6\selfanalyse\obj\Debug\net5.0\selfanalyse.genruntimeconfig.cache

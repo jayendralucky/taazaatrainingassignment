@@ -1,0 +1,16 @@
+C:\day6\day6\Miscellaneous\bin\Debug\net5.0\Miscellaneous.exe
+C:\day6\day6\Miscellaneous\bin\Debug\net5.0\Miscellaneous.deps.json
+C:\day6\day6\Miscellaneous\bin\Debug\net5.0\Miscellaneous.runtimeconfig.json
+C:\day6\day6\Miscellaneous\bin\Debug\net5.0\Miscellaneous.runtimeconfig.dev.json
+C:\day6\day6\Miscellaneous\bin\Debug\net5.0\Miscellaneous.dll
+C:\day6\day6\Miscellaneous\bin\Debug\net5.0\ref\Miscellaneous.dll
+C:\day6\day6\Miscellaneous\bin\Debug\net5.0\Miscellaneous.pdb
+C:\day6\day6\Miscellaneous\obj\Debug\net5.0\Miscellaneous.csproj.AssemblyReference.cache
+C:\day6\day6\Miscellaneous\obj\Debug\net5.0\Miscellaneous.GeneratedMSBuildEditorConfig.editorconfig
+C:\day6\day6\Miscellaneous\obj\Debug\net5.0\Miscellaneous.AssemblyInfoInputs.cache
+C:\day6\day6\Miscellaneous\obj\Debug\net5.0\Miscellaneous.AssemblyInfo.cs
+C:\day6\day6\Miscellaneous\obj\Debug\net5.0\Miscellaneous.csproj.CoreCompileInputs.cache
+C:\day6\day6\Miscellaneous\obj\Debug\net5.0\Miscellaneous.dll
+C:\day6\day6\Miscellaneous\obj\Debug\net5.0\ref\Miscellaneous.dll
+C:\day6\day6\Miscellaneous\obj\Debug\net5.0\Miscellaneous.pdb
+C:\day6\day6\Miscellaneous\obj\Debug\net5.0\Miscellaneous.genruntimeconfig.cache

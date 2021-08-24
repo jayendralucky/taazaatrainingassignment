@@ -1,0 +1,16 @@
+C:\day6\day6\Advancetraining\bin\Debug\net5.0\Advancetraining.exe
+C:\day6\day6\Advancetraining\bin\Debug\net5.0\Advancetraining.deps.json
+C:\day6\day6\Advancetraining\bin\Debug\net5.0\Advancetraining.runtimeconfig.json
+C:\day6\day6\Advancetraining\bin\Debug\net5.0\Advancetraining.runtimeconfig.dev.json
+C:\day6\day6\Advancetraining\bin\Debug\net5.0\Advancetraining.dll
+C:\day6\day6\Advancetraining\bin\Debug\net5.0\ref\Advancetraining.dll
+C:\day6\day6\Advancetraining\bin\Debug\net5.0\Advancetraining.pdb
+C:\day6\day6\Advancetraining\obj\Debug\net5.0\Advancetraining.csproj.AssemblyReference.cache
+C:\day6\day6\Advancetraining\obj\Debug\net5.0\Advancetraining.GeneratedMSBuildEditorConfig.editorconfig
+C:\day6\day6\Advancetraining\obj\Debug\net5.0\Advancetraining.AssemblyInfoInputs.cache
+C:\day6\day6\Advancetraining\obj\Debug\net5.0\Advancetraining.AssemblyInfo.cs
+C:\day6\day6\Advancetraining\obj\Debug\net5.0\Advancetraining.csproj.CoreCompileInputs.cache
+C:\day6\day6\Advancetraining\obj\Debug\net5.0\Advancetraining.dll
+C:\day6\day6\Advancetraining\obj\Debug\net5.0\ref\Advancetraining.dll
+C:\day6\day6\Advancetraining\obj\Debug\net5.0\Advancetraining.pdb
+C:\day6\day6\Advancetraining\obj\Debug\net5.0\Advancetraining.genruntimeconfig.cache
