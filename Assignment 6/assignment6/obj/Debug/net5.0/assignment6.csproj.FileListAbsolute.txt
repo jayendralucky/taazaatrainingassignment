@@ -1,0 +1,16 @@
+C:\day6\day6\assignment6\bin\Debug\net5.0\assignment6.exe
+C:\day6\day6\assignment6\bin\Debug\net5.0\assignment6.deps.json
+C:\day6\day6\assignment6\bin\Debug\net5.0\assignment6.runtimeconfig.json
+C:\day6\day6\assignment6\bin\Debug\net5.0\assignment6.runtimeconfig.dev.json
+C:\day6\day6\assignment6\bin\Debug\net5.0\assignment6.dll
+C:\day6\day6\assignment6\bin\Debug\net5.0\ref\assignment6.dll
+C:\day6\day6\assignment6\bin\Debug\net5.0\assignment6.pdb
+C:\day6\day6\assignment6\obj\Debug\net5.0\assignment6.csproj.AssemblyReference.cache
+C:\day6\day6\assignment6\obj\Debug\net5.0\assignment6.GeneratedMSBuildEditorConfig.editorconfig
+C:\day6\day6\assignment6\obj\Debug\net5.0\assignment6.AssemblyInfoInputs.cache
+C:\day6\day6\assignment6\obj\Debug\net5.0\assignment6.AssemblyInfo.cs
+C:\day6\day6\assignment6\obj\Debug\net5.0\assignment6.csproj.CoreCompileInputs.cache
+C:\day6\day6\assignment6\obj\Debug\net5.0\assignment6.dll
+C:\day6\day6\assignment6\obj\Debug\net5.0\ref\assignment6.dll
+C:\day6\day6\assignment6\obj\Debug\net5.0\assignment6.pdb
+C:\day6\day6\assignment6\obj\Debug\net5.0\assignment6.genruntimeconfig.cache

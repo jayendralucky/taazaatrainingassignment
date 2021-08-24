@@ -1,0 +1,16 @@
+C:\day6\day6\AdvanceGenerics\bin\Debug\net5.0\AdvanceGenerics.exe
+C:\day6\day6\AdvanceGenerics\bin\Debug\net5.0\AdvanceGenerics.deps.json
+C:\day6\day6\AdvanceGenerics\bin\Debug\net5.0\AdvanceGenerics.runtimeconfig.json
+C:\day6\day6\AdvanceGenerics\bin\Debug\net5.0\AdvanceGenerics.runtimeconfig.dev.json
+C:\day6\day6\AdvanceGenerics\bin\Debug\net5.0\AdvanceGenerics.dll
+C:\day6\day6\AdvanceGenerics\bin\Debug\net5.0\ref\AdvanceGenerics.dll
+C:\day6\day6\AdvanceGenerics\bin\Debug\net5.0\AdvanceGenerics.pdb
+C:\day6\day6\AdvanceGenerics\obj\Debug\net5.0\AdvanceGenerics.csproj.AssemblyReference.cache
+C:\day6\day6\AdvanceGenerics\obj\Debug\net5.0\AdvanceGenerics.GeneratedMSBuildEditorConfig.editorconfig
+C:\day6\day6\AdvanceGenerics\obj\Debug\net5.0\AdvanceGenerics.AssemblyInfoInputs.cache
+C:\day6\day6\AdvanceGenerics\obj\Debug\net5.0\AdvanceGenerics.AssemblyInfo.cs
+C:\day6\day6\AdvanceGenerics\obj\Debug\net5.0\AdvanceGenerics.csproj.CoreCompileInputs.cache
+C:\day6\day6\AdvanceGenerics\obj\Debug\net5.0\AdvanceGenerics.dll
+C:\day6\day6\AdvanceGenerics\obj\Debug\net5.0\ref\AdvanceGenerics.dll
+C:\day6\day6\AdvanceGenerics\obj\Debug\net5.0\AdvanceGenerics.pdb
+C:\day6\day6\AdvanceGenerics\obj\Debug\net5.0\AdvanceGenerics.genruntimeconfig.cache
