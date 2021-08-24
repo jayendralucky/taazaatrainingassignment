@@ -1,0 +1,16 @@
+C:\day7\homeassignment\bin\Debug\net5.0\homeassignment.exe
+C:\day7\homeassignment\bin\Debug\net5.0\homeassignment.deps.json
+C:\day7\homeassignment\bin\Debug\net5.0\homeassignment.runtimeconfig.json
+C:\day7\homeassignment\bin\Debug\net5.0\homeassignment.runtimeconfig.dev.json
+C:\day7\homeassignment\bin\Debug\net5.0\homeassignment.dll
+C:\day7\homeassignment\bin\Debug\net5.0\ref\homeassignment.dll
+C:\day7\homeassignment\bin\Debug\net5.0\homeassignment.pdb
+C:\day7\homeassignment\obj\Debug\net5.0\homeassignment.csproj.AssemblyReference.cache
+C:\day7\homeassignment\obj\Debug\net5.0\homeassignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\day7\homeassignment\obj\Debug\net5.0\homeassignment.AssemblyInfoInputs.cache
+C:\day7\homeassignment\obj\Debug\net5.0\homeassignment.AssemblyInfo.cs
+C:\day7\homeassignment\obj\Debug\net5.0\homeassignment.csproj.CoreCompileInputs.cache
+C:\day7\homeassignment\obj\Debug\net5.0\homeassignment.dll
+C:\day7\homeassignment\obj\Debug\net5.0\ref\homeassignment.dll
+C:\day7\homeassignment\obj\Debug\net5.0\homeassignment.pdb
+C:\day7\homeassignment\obj\Debug\net5.0\homeassignment.genruntimeconfig.cache

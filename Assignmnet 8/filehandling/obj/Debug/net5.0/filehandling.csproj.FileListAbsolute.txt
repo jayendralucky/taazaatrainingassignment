@@ -1,0 +1,16 @@
+C:\day7\filehandling\bin\Debug\net5.0\filehandling.exe
+C:\day7\filehandling\bin\Debug\net5.0\filehandling.deps.json
+C:\day7\filehandling\bin\Debug\net5.0\filehandling.runtimeconfig.json
+C:\day7\filehandling\bin\Debug\net5.0\filehandling.runtimeconfig.dev.json
+C:\day7\filehandling\bin\Debug\net5.0\filehandling.dll
+C:\day7\filehandling\bin\Debug\net5.0\ref\filehandling.dll
+C:\day7\filehandling\bin\Debug\net5.0\filehandling.pdb
+C:\day7\filehandling\obj\Debug\net5.0\filehandling.csproj.AssemblyReference.cache
+C:\day7\filehandling\obj\Debug\net5.0\filehandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\day7\filehandling\obj\Debug\net5.0\filehandling.AssemblyInfoInputs.cache
+C:\day7\filehandling\obj\Debug\net5.0\filehandling.AssemblyInfo.cs
+C:\day7\filehandling\obj\Debug\net5.0\filehandling.csproj.CoreCompileInputs.cache
+C:\day7\filehandling\obj\Debug\net5.0\filehandling.dll
+C:\day7\filehandling\obj\Debug\net5.0\ref\filehandling.dll
+C:\day7\filehandling\obj\Debug\net5.0\filehandling.pdb
+C:\day7\filehandling\obj\Debug\net5.0\filehandling.genruntimeconfig.cache

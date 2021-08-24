@@ -1,0 +1,16 @@
+C:\day7\Genericsnew\obj\Debug\net5.0\Genericsnew.csproj.AssemblyReference.cache
+C:\day7\Genericsnew\obj\Debug\net5.0\Genericsnew.GeneratedMSBuildEditorConfig.editorconfig
+C:\day7\Genericsnew\obj\Debug\net5.0\Genericsnew.AssemblyInfoInputs.cache
+C:\day7\Genericsnew\obj\Debug\net5.0\Genericsnew.AssemblyInfo.cs
+C:\day7\Genericsnew\obj\Debug\net5.0\Genericsnew.csproj.CoreCompileInputs.cache
+C:\day7\Genericsnew\obj\Debug\net5.0\Genericsnew.dll
+C:\day7\Genericsnew\obj\Debug\net5.0\ref\Genericsnew.dll
+C:\day7\Genericsnew\obj\Debug\net5.0\Genericsnew.pdb
+C:\day7\Genericsnew\bin\Debug\net5.0\Genericsnew.exe
+C:\day7\Genericsnew\bin\Debug\net5.0\Genericsnew.deps.json
+C:\day7\Genericsnew\bin\Debug\net5.0\Genericsnew.runtimeconfig.json
+C:\day7\Genericsnew\bin\Debug\net5.0\Genericsnew.runtimeconfig.dev.json
+C:\day7\Genericsnew\bin\Debug\net5.0\Genericsnew.dll
+C:\day7\Genericsnew\bin\Debug\net5.0\ref\Genericsnew.dll
+C:\day7\Genericsnew\bin\Debug\net5.0\Genericsnew.pdb
+C:\day7\Genericsnew\obj\Debug\net5.0\Genericsnew.genruntimeconfig.cache

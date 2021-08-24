@@ -1,0 +1,16 @@
+C:\day7\advancedelegate\bin\Debug\net5.0\advancedelegate.exe
+C:\day7\advancedelegate\bin\Debug\net5.0\advancedelegate.deps.json
+C:\day7\advancedelegate\bin\Debug\net5.0\advancedelegate.runtimeconfig.json
+C:\day7\advancedelegate\bin\Debug\net5.0\advancedelegate.runtimeconfig.dev.json
+C:\day7\advancedelegate\bin\Debug\net5.0\advancedelegate.dll
+C:\day7\advancedelegate\bin\Debug\net5.0\ref\advancedelegate.dll
+C:\day7\advancedelegate\bin\Debug\net5.0\advancedelegate.pdb
+C:\day7\advancedelegate\obj\Debug\net5.0\advancedelegate.csproj.AssemblyReference.cache
+C:\day7\advancedelegate\obj\Debug\net5.0\advancedelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\day7\advancedelegate\obj\Debug\net5.0\advancedelegate.AssemblyInfoInputs.cache
+C:\day7\advancedelegate\obj\Debug\net5.0\advancedelegate.AssemblyInfo.cs
+C:\day7\advancedelegate\obj\Debug\net5.0\advancedelegate.csproj.CoreCompileInputs.cache
+C:\day7\advancedelegate\obj\Debug\net5.0\advancedelegate.dll
+C:\day7\advancedelegate\obj\Debug\net5.0\ref\advancedelegate.dll
+C:\day7\advancedelegate\obj\Debug\net5.0\advancedelegate.pdb
+C:\day7\advancedelegate\obj\Debug\net5.0\advancedelegate.genruntimeconfig.cache
