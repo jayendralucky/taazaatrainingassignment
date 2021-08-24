@@ -1,0 +1,16 @@
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\bin\Debug\net5.0\boxingandunboxing.exe
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\bin\Debug\net5.0\boxingandunboxing.deps.json
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\bin\Debug\net5.0\boxingandunboxing.runtimeconfig.json
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\bin\Debug\net5.0\boxingandunboxing.runtimeconfig.dev.json
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\bin\Debug\net5.0\boxingandunboxing.dll
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\bin\Debug\net5.0\ref\boxingandunboxing.dll
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\bin\Debug\net5.0\boxingandunboxing.pdb
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\obj\Debug\net5.0\boxingandunboxing.csproj.AssemblyReference.cache
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\obj\Debug\net5.0\boxingandunboxing.GeneratedMSBuildEditorConfig.editorconfig
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\obj\Debug\net5.0\boxingandunboxing.AssemblyInfoInputs.cache
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\obj\Debug\net5.0\boxingandunboxing.AssemblyInfo.cs
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\obj\Debug\net5.0\boxingandunboxing.csproj.CoreCompileInputs.cache
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\obj\Debug\net5.0\boxingandunboxing.dll
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\obj\Debug\net5.0\ref\boxingandunboxing.dll
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\obj\Debug\net5.0\boxingandunboxing.pdb
+D:\taazaatrainingassignmnet\Assignment 2\boxingandunboxing\obj\Debug\net5.0\boxingandunboxing.genruntimeconfig.cache
