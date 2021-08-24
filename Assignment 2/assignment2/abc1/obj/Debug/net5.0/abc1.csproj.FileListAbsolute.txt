@@ -1,0 +1,16 @@
+C:\assignment2\abc1\obj\Debug\net5.0\abc1.csproj.AssemblyReference.cache
+C:\assignment2\abc1\obj\Debug\net5.0\abc1.GeneratedMSBuildEditorConfig.editorconfig
+C:\assignment2\abc1\obj\Debug\net5.0\abc1.AssemblyInfoInputs.cache
+C:\assignment2\abc1\obj\Debug\net5.0\abc1.AssemblyInfo.cs
+C:\assignment2\abc1\obj\Debug\net5.0\abc1.csproj.CoreCompileInputs.cache
+C:\assignment2\abc1\bin\Debug\net5.0\abc1.exe
+C:\assignment2\abc1\bin\Debug\net5.0\abc1.deps.json
+C:\assignment2\abc1\bin\Debug\net5.0\abc1.runtimeconfig.json
+C:\assignment2\abc1\bin\Debug\net5.0\abc1.runtimeconfig.dev.json
+C:\assignment2\abc1\bin\Debug\net5.0\abc1.dll
+C:\assignment2\abc1\bin\Debug\net5.0\ref\abc1.dll
+C:\assignment2\abc1\bin\Debug\net5.0\abc1.pdb
+C:\assignment2\abc1\obj\Debug\net5.0\abc1.dll
+C:\assignment2\abc1\obj\Debug\net5.0\ref\abc1.dll
+C:\assignment2\abc1\obj\Debug\net5.0\abc1.pdb
+C:\assignment2\abc1\obj\Debug\net5.0\abc1.genruntimeconfig.cache

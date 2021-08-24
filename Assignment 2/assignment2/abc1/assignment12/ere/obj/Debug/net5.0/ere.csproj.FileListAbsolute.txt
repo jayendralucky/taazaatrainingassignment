@@ -1,0 +1,12 @@
+C:\assignment2\abc1\assignment12\ere\bin\Debug\net5.0\ere.deps.json
+C:\assignment2\abc1\assignment12\ere\bin\Debug\net5.0\ere.dll
+C:\assignment2\abc1\assignment12\ere\bin\Debug\net5.0\ref\ere.dll
+C:\assignment2\abc1\assignment12\ere\bin\Debug\net5.0\ere.pdb
+C:\assignment2\abc1\assignment12\ere\obj\Debug\net5.0\ere.csproj.AssemblyReference.cache
+C:\assignment2\abc1\assignment12\ere\obj\Debug\net5.0\ere.GeneratedMSBuildEditorConfig.editorconfig
+C:\assignment2\abc1\assignment12\ere\obj\Debug\net5.0\ere.AssemblyInfoInputs.cache
+C:\assignment2\abc1\assignment12\ere\obj\Debug\net5.0\ere.AssemblyInfo.cs
+C:\assignment2\abc1\assignment12\ere\obj\Debug\net5.0\ere.csproj.CoreCompileInputs.cache
+C:\assignment2\abc1\assignment12\ere\obj\Debug\net5.0\ere.dll
+C:\assignment2\abc1\assignment12\ere\obj\Debug\net5.0\ref\ere.dll
+C:\assignment2\abc1\assignment12\ere\obj\Debug\net5.0\ere.pdb
