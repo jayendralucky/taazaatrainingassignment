@@ -1,0 +1,16 @@
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\bin\Debug\net5.0\functiondelegate.exe
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\bin\Debug\net5.0\functiondelegate.deps.json
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\bin\Debug\net5.0\functiondelegate.runtimeconfig.json
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\bin\Debug\net5.0\functiondelegate.runtimeconfig.dev.json
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\bin\Debug\net5.0\functiondelegate.dll
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\bin\Debug\net5.0\ref\functiondelegate.dll
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\bin\Debug\net5.0\functiondelegate.pdb
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\obj\Debug\net5.0\functiondelegate.csproj.AssemblyReference.cache
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\obj\Debug\net5.0\functiondelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\obj\Debug\net5.0\functiondelegate.AssemblyInfoInputs.cache
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\obj\Debug\net5.0\functiondelegate.AssemblyInfo.cs
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\obj\Debug\net5.0\functiondelegate.csproj.CoreCompileInputs.cache
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\obj\Debug\net5.0\functiondelegate.dll
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\obj\Debug\net5.0\ref\functiondelegate.dll
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\obj\Debug\net5.0\functiondelegate.pdb
+D:\taazaatrainingassignmnet\Assingment 11\functiondelegate\obj\Debug\net5.0\functiondelegate.genruntimeconfig.cache

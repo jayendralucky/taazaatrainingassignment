@@ -1,0 +1,16 @@
+C:\day7\delegatep\bin\Debug\net5.0\delegatep.exe
+C:\day7\delegatep\bin\Debug\net5.0\delegatep.deps.json
+C:\day7\delegatep\bin\Debug\net5.0\delegatep.runtimeconfig.json
+C:\day7\delegatep\bin\Debug\net5.0\delegatep.runtimeconfig.dev.json
+C:\day7\delegatep\bin\Debug\net5.0\delegatep.dll
+C:\day7\delegatep\bin\Debug\net5.0\ref\delegatep.dll
+C:\day7\delegatep\bin\Debug\net5.0\delegatep.pdb
+C:\day7\delegatep\obj\Debug\net5.0\delegatep.csproj.AssemblyReference.cache
+C:\day7\delegatep\obj\Debug\net5.0\delegatep.GeneratedMSBuildEditorConfig.editorconfig
+C:\day7\delegatep\obj\Debug\net5.0\delegatep.AssemblyInfoInputs.cache
+C:\day7\delegatep\obj\Debug\net5.0\delegatep.AssemblyInfo.cs
+C:\day7\delegatep\obj\Debug\net5.0\delegatep.csproj.CoreCompileInputs.cache
+C:\day7\delegatep\obj\Debug\net5.0\delegatep.dll
+C:\day7\delegatep\obj\Debug\net5.0\ref\delegatep.dll
+C:\day7\delegatep\obj\Debug\net5.0\delegatep.pdb
+C:\day7\delegatep\obj\Debug\net5.0\delegatep.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\bin\Debug\net5.0\predicatedelegate.exe
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\bin\Debug\net5.0\predicatedelegate.deps.json
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\bin\Debug\net5.0\predicatedelegate.runtimeconfig.json
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\bin\Debug\net5.0\predicatedelegate.runtimeconfig.dev.json
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\bin\Debug\net5.0\predicatedelegate.dll
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\bin\Debug\net5.0\ref\predicatedelegate.dll
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\bin\Debug\net5.0\predicatedelegate.pdb
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\obj\Debug\net5.0\predicatedelegate.csproj.AssemblyReference.cache
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\obj\Debug\net5.0\predicatedelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\obj\Debug\net5.0\predicatedelegate.AssemblyInfoInputs.cache
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\obj\Debug\net5.0\predicatedelegate.AssemblyInfo.cs
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\obj\Debug\net5.0\predicatedelegate.csproj.CoreCompileInputs.cache
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\obj\Debug\net5.0\predicatedelegate.dll
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\obj\Debug\net5.0\ref\predicatedelegate.dll
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\obj\Debug\net5.0\predicatedelegate.pdb
+D:\taazaatrainingassignmnet\Assingment 11\predicatedelegate\obj\Debug\net5.0\predicatedelegate.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\bin\Debug\net5.0\actiondelegate.exe
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\bin\Debug\net5.0\actiondelegate.deps.json
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\bin\Debug\net5.0\actiondelegate.runtimeconfig.json
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\bin\Debug\net5.0\actiondelegate.runtimeconfig.dev.json
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\bin\Debug\net5.0\actiondelegate.dll
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\bin\Debug\net5.0\ref\actiondelegate.dll
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\bin\Debug\net5.0\actiondelegate.pdb
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\obj\Debug\net5.0\actiondelegate.csproj.AssemblyReference.cache
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\obj\Debug\net5.0\actiondelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\obj\Debug\net5.0\actiondelegate.AssemblyInfoInputs.cache
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\obj\Debug\net5.0\actiondelegate.AssemblyInfo.cs
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\obj\Debug\net5.0\actiondelegate.csproj.CoreCompileInputs.cache
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\obj\Debug\net5.0\actiondelegate.dll
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\obj\Debug\net5.0\ref\actiondelegate.dll
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\obj\Debug\net5.0\actiondelegate.pdb
+D:\taazaatrainingassignmnet\Assingment 11\actiondelegate\obj\Debug\net5.0\actiondelegate.genruntimeconfig.cache
