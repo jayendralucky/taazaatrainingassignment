@@ -1,0 +1,91 @@
+day 15 sql commands
+
+CREATE PROCEDURE lucky()
+AS $$
+BEGIN
+RAISE NOTICE 'I AM PROCEDURE';
+END;
+$$
+LANGUAGE plpgsql;
+---------------------------------------------------------------------------------------------------------------
+assignment 1 
+
+create database lucky
+create table stud
+(
+   id integer primary key,
+   name varchar(20) not null
+)
+
+insert into stud values(101,'sakshi')
+select * from stud
+
+create function countRecord()
+returns integer
+as $$
+declare temp integer;
+ begin
+	 temp= count(*) from stud;
+	 return temp;
+ end
+$$
+language plpgsql;
+
+select countRecord()
+-----------------------------------------------------------------------------------------------------------------------------
+assignment 2 
+
+lucky=# create function detail()
+lucky-# returns setof stud
+lucky-# as $$
+lucky$# begin
+lucky$#   return query select * from stud;
+lucky$# end;
+lucky$# $$
+lucky-# language plpgsql;
+CREATE FUNCTION
+lucky=# select * from detail();
+ id  |  name
+-----+--------
+ 101 | sakshi
+ 102 | lucky
+ 103 | sachin
+(3 rows)
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+assignment 3
+ create or replace function search(idd integer)
+ returns varchar(20)
+ as $$
+ declare name1 varchar(10);
+   begin
+   name1=(select name from stud where id=idd);
+  return name1;
+   end;
+ $$
+ language plpgsql;
+CREATE FUNCTION
+ select search(101);
+ search
+--------
+ sakshi
+(1 row)
+-----------------------------------------------------------------------------------------------------------------------------------------
+assignment 4
+
+lucky=# create procedure increase(inout i integer)
+lucky-# language 'plpgsql'
+lucky-# as $$
+lucky$# begin
+lucky$# i=i+1;
+lucky$# return;
+lucky$# end;
+lucky$# $$;
+call increase(10);
+ i
+----
+ 11
+(1 row)
+
+

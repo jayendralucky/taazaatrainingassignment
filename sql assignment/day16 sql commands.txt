@@ -1,0 +1,98 @@
+agenda 
+1)insert
+2)update
+3)delete
+--------------------------------------------------------------------------------------------------------------
+Insert 
+create procedure addemployee
+(
+EmpId INOUT INT,  
+    EmpName VARCHAR(100),  
+    EmpDob DATE,  
+    EmpCity VARCHAR(100),  
+    EmpDesignation VARCHAR(100),  
+    EmpJoiningDate DATE
+)
+LANGUAGE plpgsql AS  
+$$  
+BEGIN         
+   INSERT INTO Employees (Name,DateOfBirth,City,Designation,JoiningDate) VALUES   
+    (EmpName,  
+     EmpDob,  
+     EmpCity,  
+     EmpDesignation,  
+     EmpJoiningDate  
+    ) RETURNING Id INTO EmpId;
+End
+$$;
+---------------------------------------------------------------------------------------------------------------
+2) update
+CREATE OR REPLACE PROCEDURE UpdateEmployee  
+(  
+    EmpId INT,  
+    EmpName VARCHAR(100),  
+    EmpDob DATE,  
+    EmpCity VARCHAR(100),  
+    EmpDesignation VARCHAR(100),  
+    EmpJoiningDate DATE  
+)  
+LANGUAGE plpgsql AS  
+$$  
+BEGIN         
+   UPDATE Employees SET   
+   Name = EmpName,  
+   DateOfBirth = EmpDob,  
+   City = EmpCity,  
+   Designation = EmpDesignation,  
+   JoiningDate = EmpJoiningDate  
+   Where Id = EmpId;  
+END  
+$$;
+
+CALL UpdateEmployee(1,'rohan sharma','1999-10-01','New York' ,'Web Developer','2020-11-01');
+
+select * from Employees;
+----------------------------------------------------------------------------------------------------------
+3) delete 
+CREATE OR REPLACE PROCEDURE DeleteEmployee  
+(  
+    EmpId INT  
+)  
+LANGUAGE plpgsql AS  
+$$  
+BEGIN  
+    DELETE FROM Employees WHERE Id = EmpId;  
+END  
+$$;
+
+call DeleteEmployee(2);
+
+select * from Employees;
+-------------------------------------------------------------------------------------------------
+returning values for stored procedure in postgres
+CREATE PROCEDURE SearchEmp(INOUT name1 varchar DEFAULT null)
+lucky-#   LANGUAGE plpgsql AS
+lucky-# $proc$
+lucky$# BEGIN
+lucky$#    SELECT name FROM Employees WHERE id = 2
+lucky$#    INTO name1;
+lucky$# END
+lucky$# $proc$;
+-----------------------------------------------------------------------------------------------------
+CREATE PROCEDURE SearchEmp1(i integer, INOUT name1 varchar DEFAULT null)
+  LANGUAGE plpgsql AS
+$proc$
+BEGIN
+   SELECT name FROM Employees WHERE id =i
+   INTO name1;                              
+END
+$proc$;
+-----------------------------------------------------------------------------------------------------------------
+CREATE PROCEDURE SearchEmp4(i integer, INOUT name1 varchar DEFAULT null, INOUT city1 varchar DEFAULT null)
+  LANGUAGE plpgsql AS
+$proc$
+BEGIN
+   SELECT name,city FROM Employees WHERE id =i
+   INTO name1,city1;                              
+END
+$proc$;

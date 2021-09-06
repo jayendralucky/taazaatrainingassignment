@@ -1,0 +1,586 @@
+Assignment database 
+1. if exist commnad 
+project=# create table Employee(
+project(# emp_id int primary key,
+project(# emp_fname varchar not null,
+project(# emp_lname varchar not null,
+project(# location varchar(30) );
+CREATE TABLE
+project=# INSERT INTO Employee (emp_id, emp_fname, emp_lname, location)
+project-# VALUES
+project-# (1, 'John', 'Smith', 'New York'),
+project-# (2, 'Mia', 'Clark','Florida'),
+project-# (3, 'Noah','Rodriguez','Chicago'),
+project-# (4, 'Ava','Gracia','Houston'),
+project-# (5,'James','Luther','Los Angeles');
+INSERT 0 5
+project=# Create table department
+project-# (emp_id int primary key,
+project(#  dept_id int not null,
+project(#  dept_name varchar NOT NULL);
+project=# INSERT INTO department (emp_id, dept_id, dept_name)
+project-# VALUES
+project-# (1, 1, 'ACCOUNTING'),
+project-# (2, 2,'SALES'),
+project-# (3, 3,'RESEARCH'),
+project-# (4, 4,'OPERATIONS'),
+project-# (5, 5,'HUMAN RESOURCES');
+INSERT 0 5
+project=# select emp_fname, emp_lname
+project-# from Employee e
+project-# where exists (select 1
+project(# from department d
+project(# where d.dept_id=e.emp_id);
+ emp_fname | emp_lname
+-----------+-----------
+ John      | Smith
+ Mia       | Clark
+ Noah      | Rodriguez
+ Ava       | Gracia
+ James     | Luther
+(5 rows)
+
+2. sql all commnads 
+
+create function city(city int
+returns varchar
+language plpsql
+$$
+declare
+cityname varchar(20)='noida';
+begin
+return cityname;
+end;
+$$;
+
+create function getDetails(int)
+returns setof Membership as$$
+select * from Membership;
+$$ Language SQL;
+
+
+CREATE FUNCTION getDetail() RETURNS SETOF membership AS $$
+     SELECT * FROM membership;
+ $$ LANGUAGE sql;
+
+
+ CREATE FUNCTION getPassword(uname varchar)
+ RETURNS varchar AS $$
+ SELECT password FROM membership WHERE username = uname;
+ $$ LANGUAGE SQL;
+
+
+ CREATE FUNCTION countRecords()
+ RETURNS integer AS $$
+ SELECT COUNT(*) FROM membership;
+ $$ LANGUAGE SQL;
+
+project=# create function getupass(name varchar)
+project-# returns varchar
+project-# as $$
+project$# begin
+project$# return (select password from Membership where username=name);
+project$# end;
+project$# $$ language plpgsql;
+CREATE FUNCTION
+project=# select * from getupass('lucky');
+ getupass
+----------
+ 12345
+(1 row)
+
+project=# create function getCountData()
+project-# returns integer
+project-# AS $$
+project$# begin
+project$# return (select count(*) from membership);
+project$# end ;
+project$# $$ Language plpgsql;
+CREATE FUNCTION
+projectdb=# select getCountData();
+ getcountdata
+--------------
+            2
+
+do $$
+declare
+   id    integer := 1;
+   name varchar(50) := 'John';
+   age  numeric(10,2) := 22;
+begin 
+   raise notice '% % %', 
+           id, 
+	   name, 
+	   age;
+end $$;
+
+day9=# do $$
+day9$# begin
+day9$#    for cnt in 1..10 loop
+day9$#     raise notice 'cnt: %', cnt;
+day9$#    end loop;
+day9$# end; $$
+day9-# ;
+NOTICE:  cnt: 1
+NOTICE:  cnt: 2
+NOTICE:  cnt: 3
+NOTICE:  cnt: 4
+NOTICE:  cnt: 5
+NOTICE:  cnt: 6
+NOTICE:  cnt: 7
+NOTICE:  cnt: 8
+NOTICE:  cnt: 9
+NOTICE:  cnt: 10
+DO
+do $$ 
+declare
+   ctime time := now();
+begin 
+   raise notice '%', ctime ;
+   perform pg_sleep(10);
+   raise notice '%', created_at;
+end $$;
+
+
+day9=#
+
+do $$
+declare
+value integer :=20;
+begin
+if value < 15 then 
+raise notice 'value is less then 15';
+end if;
+end ;$$
+
+day9=# do $$
+day9$# declare
+day9$# value integer :=20;
+day9$# begin
+day9$# if value < 15 then
+day9$# raise notice 'value is less then 15';
+day9$# else
+day9$# end if;
+day9$# end ;$$
+day9-# ;
+DO
+
+
+do $$
+declare
+value integer :=20;
+begin
+if value < 15 then 
+raise notice 'value is less then 15';
+else 
+raise notice 'value is acepted %',value;
+end if; 
+end $$;
+
+
+day9=# do $$
+day9$# declare
+day9$# value integer :=20;
+day9$# begin
+day9$# if value < 15 then
+day9$# raise notice 'value is less then 15';
+day9$# else
+day9$# raise notice 'value is acepted %',value;
+day9$# end if;
+day9$# end $$;
+NOTICE:  value is acepted 20
+DO
+
+update -First, specify the name of the table that you want to update data after the UPDATE keyword.
+Second, specify columns and their new values after SET keyword. The columns that do not appear in the SET clause retain their original values.
+Third, determine which rows to update in the condition of the WHERE clause.
+
+update taazaatraining set name ='rohan'
+day9-# where id = 2;
+
+•	delete - First, specify the name of the table from which you want to delete data after the DELETE FROM keywords.
+•	Second, use a condition in the WHERE clause to specify which rows from the table to delete.
+delete from taazaatraining
+day9-# where id = 3;
+
+where keyword : The WHERE clause appears right after the FROM clause of the SELECT statement.  The WHERE clause uses the condition to filter the rows returned from the SELECT clause.
+The condition must evaluate to true, false, or unknown. It can be a boolean expression or a combination of boolean expressions using the AND and OR operators.
+The query returns only rows that satisfy the condition in the WHERE clause. In other words, only rows that cause the condition evaluates to true will be included in the result set.
+select name
+day9-# from taazaatraining
+day9-# where
+day9-# name ='rohan';
+ name
+-------
+ rohan
+(1 row)
+
+Order by : In this section, we are going to learn the PostgreSQL ORDER BY condition, which is used for sorting data in ascending or descending order. And the records are fetched on the basis of one or more columns.
+When fetching the records from a table, the SELECT command returns rows in an undetermined order. For this, we will use the ORDER BY clause in the SELECT statement for sorting the rows of the result set.
+The ORDER BY clause permits us to sort rows returned by a SELECT condition in ascending or descending order depends on the sort expression.
+day9=# select name
+day9-# from taazaatraining
+day9-# order by name asc;
+    name
+-------------
+ lucky singh
+ rohan
+(2 rows)
+
+Group by: Most importantly, this clause is used to split rows into groups where the GROUP BY condition collects the data across several records and sets the result by one or more columns.
+And every group can apply an aggregate function like COUNT() function is used to get the number of items in the groups, and the SUM() function is used to analyze the sum of items.
+day9=# select id
+day9-# from taazaatraining
+day9-# group by id;
+ id
+----
+  2
+  1
+(2 rows)
+
+Having : The having clause is used to specify a search condition for a group or an aggregate. And it is regularly used with the GROUP BY clause to filter groups or aggregates based on a detailed condition.
+select name,count(id)
+day9-# from taazaatraining
+day9-# group by name
+day9-# having count(id)<1
+day9-# ;
+ name | count
+------+-------
+(0 rows)
+
+Distinct :  is used to delete the matching rows or data from a table and get only the unique records.
+day9=# select distinct name
+day9-# from taazaatraining
+day9-# order by name;
+    name
+-------------
+ lucky singh
+ rohan
+(2 rows)
+
+Limit : LIMIT clause, which is used to get a subset of rows produced by a command.
+select id,name,age
+day9-# from taazaatraining
+day9-# order by id
+day9-# limit 5;
+ id |    name     | age
+----+-------------+-----
+  1 | lucky singh |  22
+  2 | rohan       |  23
+(2 rows)
+
+Fetch :  FETCH clause, which is used to recover various rows returned by a command. And the FETCH clause was launched in 2008 by SQL.
+day9=# select id,name,age
+day9-# from taazaatraining
+day9-# order by name
+day9-# fetch first row only;
+ id |    name     | age
+----+-------------+-----
+  1 | lucky singh |  22
+(1 row)
+
+IN : The PostgreSQL IN condition is used within the WHERE clause to get those data that matches any data in a list. In other words, we can say that the IN condition is used to reduce multiple OR conditions
+day9=# select * from taazaatraining
+day9-# where name in('rohan')
+day9-# order by id desc;
+ id | name  | address | age
+----+-------+---------+-----
+  2 | rohan | aligarh |  23
+(1 row)
+Like : The PostgreSQL Like condition is used to fetch data from a table where the defined condition satisfies the LIKE condition. The result contains strings, which are case-sensitive and follow the specified pattern.
+In other words, we can also say that the Like condition is used to perform pattern matching for identifying the exact outcome.
+day9=# select name
+day9-# from Taazaatraining
+day9-# where name like'rohan'
+day9-# ;
+ name
+-------
+ rohan
+(1 row)
+
+And & or : AND & OR Condition can be combined with the INSERT, SELECT, UPDATE and DELETE commands. While combining these conditions, we must be alert of where to use the parentheses so that the database knows the order to assess every condition.
+day9=# select id,name,age
+day9-# from taazaatraining
+day9-# where(name = 'rohan' and address = 'aligarh')
+day9-# or(age >=23);
+ id | name  | age
+----+-------+-----
+  2 | rohan |  23
+(1 row)
+
+Between : The PostgreSQL Between condition is used to define how to retrieve values from an expression within a specific range. In other words, we can say that the Between condition is used to match a value against a range of values.
+day9=# select id,name,age
+day9-# from taazaatraining
+day9-# where age between 22 and 25
+day9-# order by age desc;
+ id |    name     | age
+----+-------------+-----
+  2 | rohan       |  23
+  1 | lucky singh |  22
+(2 rows)
+
+Exist the EXISTS condition can combine with the SELECT, INSERT, UPDATE, and DELETE commands. In other words, we can say that the EXISTS condition is used to check for the presence of any data in a subquery, and returns true if the subquery returns several records.
+It is used to group with a subquery and test the existence of records in a subquery. The PostgreSQL EXISTS condition is a type of Boolean operator which returns the true or false result. In other words, we can say that:
+o	If a subquery returns any record, the Exists condition will return a TRUE value, or else, it will return a FALSE
+o	Here the TRUE value is always illustrated with numeric value 1, and the FALSE value is denoted as numeric value 0.
+
+Date: n PostgreSQL, the Date data type format is YYYY-MM-DD, which helps us to store and insert the date records into the date column.
+The Date data type involve 4 bytes of storage size. And the minimum and maximum ranges of date data type start with 4713 BC to 5874897 AD or 1000-01-01 to 9999-12-31.
+day9=# alter table taazaatraining add sdate date default current_date;
+ALTER TABLE
+day9=# insert into taazaatraining(name,address,age) values('sohan','agra',22);
+INSERT 0 1
+day9=# select * from taazaatraining;
+ id |    name     | address | age |   sdate
+----+-------------+---------+-----+------------
+  1 | lucky singh | agra    |  22 | 2021-08-25
+  2 | rohan       | aligarh |  23 | 2021-08-25
+  4 | sohan       | agra    |  22 | 2021-08-25
+(3 rows)
+
+Time : In PostgreSQL, the next data type is TIME, which stores the Time of days values.
+The PostgreSQL Time Data type involves 8 bytes of storage and up to 6 digits of precision, and the range starts from 00:00:00 to 24:00:00 for Time data type.
+day9=# alter table taazaatraining add stime time default current_time;
+ALTER TABLE
+day9=# insert into taazaatraining(name,address,age) values('ravi','merrut',24);
+INSERT 0 1
+day9=# select * from taazaatraining;
+ id |    name     | address | age |   sdate    |      stime
+----+-------------+---------+-----+------------+-----------------
+  1 | lucky singh | agra    |  22 | 2021-08-25 | 17:11:37.606642
+  2 | rohan       | aligarh |  23 | 2021-08-25 | 17:11:37.606642
+  4 | sohan       | agra    |  22 | 2021-08-25 | 17:11:37.606642
+  5 | ravi        | merrut  |  24 | 2021-08-25 | 17:12:03.523646
+(4 rows)
+
+Numeric : In PostgreSQL, the Numeric data type is used to store the numbers with various significant numbers of digits. In other words, we can say that the PostgreSQL Numeric data type is used to specify the numeric data into the table, which needs quantities or monetary amounts where the precision is required.
+day9=# alter table taazaatraining alter age type numeric;
+ALTER TABLE
+day9=# insert into taazaataining(age) values(221210266226);
+ERROR:  relation "taazaataining" does not exist
+LINE 1: insert into taazaataining(age) values(221210266226);
+                    ^
+day9=# insert into taazaatraining(age) values(221210266226);
+INSERT 0 1
+day9=# select * from taazaatraining;
+ id |    name     | address |     age      |   sdate    |      stime
+----+-------------+---------+--------------+------------+-----------------
+  1 | lucky singh | agra    |           22 | 2021-08-25 | 17:11:37.606642
+  2 | rohan       | aligarh |           23 | 2021-08-25 | 17:11:37.606642
+  4 | sohan       | agra    |           22 | 2021-08-25 | 17:11:37.606642
+  5 | ravi        | merrut  |           24 | 2021-08-25 | 17:12:03.523646
+  6 |             |         | 221210266226 | 2021-08-25 | 17:44:26.326404
+(5 rows)
+
+Char : In PostgreSQL, the character data represent the character type values and also known as CHAR. In other words, we can say that the PostgreSQL character data type is used to store a character of limited length.
+
+day9=# alter table taazaatraining add gender varchar(1) default 'm';
+ALTER TABLE
+day9=# select * from taazaatraining;
+ id |    name     | address |     age      |   sdate    |      stime      | gender
+----+-------------+---------+--------------+------------+-----------------+--------
+  1 | lucky singh | agra    |           22 | 2021-08-25 | 17:11:37.606642 | m
+  2 | rohan       | aligarh |           23 | 2021-08-25 | 17:11:37.606642 | m
+  4 | sohan       | agra    |           22 | 2021-08-25 | 17:11:37.606642 | m
+  5 | ravi        | merrut  |           24 | 2021-08-25 | 17:12:03.523646 | m
+  6 |             |         | 221210266226 | 2021-08-25 | 17:44:26.326404 | m
+(5 rows)
+
+
+day9=# alter table taazaatraining alter gender type char(1);
+ALTER TABLE
+day9=# select * from taazaatraining;
+ id |    name     | address |     age      |   sdate    |      stime      | gender
+----+-------------+---------+--------------+------------+-----------------+--------
+  1 | lucky singh | agra    |           22 | 2021-08-25 | 17:11:37.606642 | m
+  2 | rohan       | aligarh |           23 | 2021-08-25 | 17:11:37.606642 | m
+  4 | sohan       | agra    |           22 | 2021-08-25 | 17:11:37.606642 | m
+  5 | ravi        | merrut  |           24 | 2021-08-25 | 17:12:03.523646 | m
+  6 |             |         | 221210266226 | 2021-08-25 | 17:44:26.326404 | m
+(5 rows)
+
+Inner join :
+day9=# create table Employee(
+day9(# emp_id int primary key,
+day9(# emp_fname varchar(50) not null,
+day9(# emp_kname varchar not null,
+day9(# location varchar(30));
+CREATE TABLE
+day9=# create table department
+day9-# (emp_id int primary key,
+day9(# dept_id int not null,
+day9(# deptname varchar(50) not null);
+CREATE TABLE
+day9=# insert into Employee(emp_id,emp_fname,emp_lname,location)
+day9-# values
+day9-# (1,'lucky','singh','agra'),
+day9-# (2,'varun','yadav','noida'),
+day9-# (3,'sachin','gupta','aligarh'),
+day9-# (4,'sagar','singh','amroah');
+ERROR:  column "emp_lname" of relation "employee" does not exist
+LINE 1: insert into Employee(emp_id,emp_fname,emp_lname,location)
+                                              ^
+day9=# insert into Employee(emp_id,emp_fname,emp_kname,location)
+day9-# values
+day9-# (1,'lucky','singh','agra'),
+day9-# (2,'varun','yadav','noida'),
+day9-# (3,'sachin','gupta','aligarh'),
+day9-# (4,'sagar','singh','amroah');
+INSERT 0 4
+day9=# insert into department(emp_id,dept_id,deptname)
+day9-# values
+day9-# (1,1,'sales'),
+day9-# (2,2,'marketing'),
+day9-# (3,3),'accounting'),
+day9-# (4,4,'resources');
+ERROR:  syntax error at or near "'accounting'"
+LINE 5: (3,3),'accounting'),
+              ^
+day9=# insert into department(emp_id,dept_id,deptname)
+day9-# values
+day9-# (1,1,'sales'),
+day9-# (2,2,'marketing'),
+day9-# (3,3,'accounting'),
+day9-# (4,4,'resource'),
+day9-# (5,5,'house');
+INSERT 0 5
+day9=# select emp_fname,emp_kname,location,deptname
+day9-# from Employee
+day9-# inner join department
+day9-# on Employee.emp_id=department_dept_id;
+ERROR:  column "department_dept_id" does not exist
+LINE 4: on Employee.emp_id=department_dept_id;
+                           ^
+day9=# select emp_fname,emp_kname,location,deptname
+day9-# from Employee
+day9-# inner join department
+day9-#
+day9-# on Employee.emp_id=department.dept_id;
+ emp_fname | emp_kname | location |  deptname
+-----------+-----------+----------+------------
+ lucky     | singh     | agra     | sales
+ varun     | yadav     | noida    | marketing
+ sachin    | gupta     | aligarh  | accounting
+ sagar     | singh     | amroah   | resource
+(4 rows)
+
+Left  join: The Left Join can also be known as the Left Outer Join clause. Therefore, the Outer is the optional keyword, which is used in Left Join. In PostgreSQL, the Left join is parallel to the Inner Join condition.
+day9=# select emp_fname,emp_kname,location,deptname
+day9-# from Employee
+day9-# left join department
+day9-# on Employee.emp_id=department.dept_id;
+ emp_fname | emp_kname | location |  deptname
+-----------+-----------+----------+------------
+ lucky     | singh     | agra     | sales
+ varun     | yadav     | noida    | marketing
+ sachin    | gupta     | aligarh  | accounting
+ sagar     | singh     | amroah   | resource
+(4 rows)
+Cross join : The PostgreSQL Cross Join is used to combine all possibilities of the multiple tables and returns the output, which contain each row from all the selected tables. The CROSS JOIN, further known as CARTESIAN JOIN that allows us to produce the Cartesian product of all related tables.
+The Cartesian product can be described as all existing rows in the first table multiplied by all rows in the second table. It is parallel to the Inner Join, where the join condition is not existing with this clause.
+day9=# select emp_fname,emp_kname,location,deptname,dept_id
+day9-# from Employee
+day9-# cross join department;
+ emp_fname | emp_kname | location |  deptname  | dept_id
+-----------+-----------+----------+------------+---------
+ lucky     | singh     | agra     | sales      |       1
+ varun     | yadav     | noida    | sales      |       1
+ sachin    | gupta     | aligarh  | sales      |       1
+ sagar     | singh     | amroah   | sales      |       1
+ lucky     | singh     | agra     | marketing  |       2
+ varun     | yadav     | noida    | marketing  |       2
+ sachin    | gupta     | aligarh  | marketing  |       2
+ sagar     | singh     | amroah   | marketing  |       2
+ lucky     | singh     | agra     | accounting |       3
+ varun     | yadav     | noida    | accounting |       3
+ sachin    | gupta     | aligarh  | accounting |       3
+ sagar     | singh     | amroah   | accounting |       3
+ lucky     | singh     | agra     | resource   |       4
+ varun     | yadav     | noida    | resource   |       4
+ sachin    | gupta     | aligarh  | resource   |       4
+ sagar     | singh     | amroah   | resource   |       4
+ lucky     | singh     | agra     | house      |       5
+ varun     | yadav     | noida    | house      |       5
+ sachin    | gupta     | aligarh  | house      |       5
+ sagar     | singh     | amroah   | house      |       5
+(20 rows)
+
+Self join : In real-time, we use a self-join to compare rows within the same table (because the comparison of similar table name is not allowed in PostgreSQL), and to fetch the hierarchical data.
+
+Union : As we learned above, the UNION operator could place the rows from the output of the initial command before, after, or between the rows from the additional command's output.
+We can use the ORDER BY clause in the second command to sort rows in the final output.
+The UNION operator is used regularly to combine data from the same tables that are not effortlessly normalized.
+
+day9=# CREATE TABLE top_rated_cars(
+day9(#     Car_name VARCHAR NOT NULL,
+day9(#     launch_year SMALLINT
+day9(# );
+CREATE TABLE
+day9=# INSERT INTO
+day9-#   top_rated_cars(Car_name,launch_year)
+day9-# VALUES
+day9-#    ('Chevrolet Silveradon',2020),
+day9-#    ('Nissan Rogue',2020),
+day9-#    ('Mercedes-Benz GLB',2019);
+INSERT 0 3
+day9=# CREATE TABLE most_reliable_cars (
+day9(#     Car_name VARCHAR NOT NULL,
+day9(#     launch_year SMALLINT
+day9(# );
+CREATE TABLE
+day9=# INSERT INTO
+day9-#   most_reliable_cars(Car_name,launch_year)
+day9-# VALUES
+day9-#    ('Toyota Prius Prime',2020),
+day9-#    ('Nissan Rogue',2020),
+day9-#    ('Kia Forte',2019);
+INSERT 0 3
+day9=# select * from top_rated_cars
+day9-# union
+day9-# select * from most_reliable_cars;
+       car_name       | launch_year
+----------------------+-------------
+ Chevrolet Silveradon |        2020
+ Mercedes-Benz GLB    |        2019
+ Nissan Rogue         |        2020
+ Toyota Prius Prime   |        2020
+ Kia Forte            |        2019
+(5 rows)
+
+Intersect : 
+day9=# select car_name
+day9-# from top_rated_cars
+day9-# where launch_year < 2020
+day9-# intersect select car_name
+day9-# from most_reliable_cars
+day9-# where launch_year = 2020;
+ car_name
+----------
+(0 rows)
+
+Creating views : 
+day9=# create view employees_view as
+day9-# select emp_id, emp_fname
+day9-# from Employee
+day9-# where emp_id > 2;
+CREATE VIEW
+day9=# select * from employee_view;
+ERROR:  relation "employee_view" does not exist
+LINE 1: select * from employee_view;
+                      ^
+day9=# select * from employees_view;
+ emp_id | emp_fname
+--------+-----------
+      3 | sachin
+      4 | sagar
+(2 rows)
+
+
+
+
+
+
+
+
+
+

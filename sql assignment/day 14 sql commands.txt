@@ -1,0 +1,70 @@
+day 14 sql commnads 
+postgres=# create database taazaadbs;
+CREATE DATABASE
+postgres=# \c taazaadbs;
+You are now connected to database "taazaadbs" as user "postgres".
+taazaadbs=# create table tbl_users
+taazaadbs-# (
+taazaadbs(# username character varying(50) not null primary key,
+taazaadbs(# password character varying(30)
+taazaadbs(# );
+CREATE TABLE
+taazaadbs=# select * from tbl_users;
+ username | password
+----------+----------
+(0 rows)
+
+
+taazaadbs=# insert into tbl_users values('karan','test');
+INSERT 0 1
+taazaadbs=# insert into tbl_users values('sachin','test1230');
+INSERT 0 1
+taazaadbs=# select * from tbl_users;
+ username | password
+----------+----------
+ karan    | test
+ sachin   | test1230
+(2 rows)
+taazaadbs=# create function uservalidates(uname character varying,upass character varying)
+taazaadbs-# returns integer
+taazaadbs-# as
+taazaadbs-# $$
+taazaadbs$# begin
+taazaadbs$# if (select count(*) from tbl_users where username = uname and password = upass)>0 then
+taazaadbs$# return 1;
+taazaadbs$# else
+taazaadbs$# return 0;
+taazaadbs$# end if;
+taazaadbs$# end;
+taazaadbs$# $$
+taazaadbs-# language plpgsql;
+CREATE FUNCTION
+taazaadbs=# select uservalidate('karan','test');
+ERROR:  column "upassword" does not exist
+LINE 1: ...ount(*) from tbl_users where username = uname and upassword ...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "tbl_users.password".
+QUERY:  SELECT (select count(*) from tbl_users where username = uname and upassword = upass)>0
+CONTEXT:  PL/pgSQL function uservalidate(character varying,character varying) line 3 at IF
+taazaadbs=# select uservalidates('karan','test');
+ uservalidates
+---------------
+             1
+(1 row)
+
+----------------------------------------------------------------------------------------------------
+stored procedure
+
+taazaadbs=# create function sum_product(in x int,in y int,out sum int,out prod int)
+taazaadbs-# as $$
+taazaadbs$# begin
+taazaadbs$#       sum:=x+y;
+taazaadbs$#       prod:=x*y;
+taazaadbs$# end;
+taazaadbs$# $$ language plpgsql;
+CREATE FUNCTION
+taazaadbs=# select * from sum_product(1,2);
+ sum | prod
+-----+------
+   3 |    2
+(1 row)
