@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Hd8Wudj1IWSScAJ531ujr7uwp1axNtnDZ57kucHyP/q+Se3FoB+x1fxyQzySDV88PkfZYaMXwf//+dPfvvCljA==",
+  "dgSpecHash": "lhN7bd96yQbwtaJG4GTEzj3/tabkeqFfbAJzLEsLniUtILJRTGrjxr4xIYVR6T8CBOyP0o+GwlkDViMz03EEYA==",
   "success": true,
-  "projectFilePath": "C:\\UserManagement\\usermanagementService\\UsermanagementService\\UsermanagementService.csproj",
+  "projectFilePath": "D:\\taazaatrainingassignmnet\\UsermanagementService\\UsermanagementService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jayendra singh\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\Jayendra singh\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",
+    "C:\\Users\\Jayendra singh\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.3\\fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
     "C:\\Users\\Jayendra singh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Jayendra singh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Jayendra singh\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",

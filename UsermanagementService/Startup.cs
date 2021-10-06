@@ -14,6 +14,8 @@ using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 using UsermanagementService.Data;
 using UsermanagementService.Service;
+using UsermanagementService.Models;
+using FluentValidation.AspNetCore;
 
 namespace UsermanagementService
 {
@@ -31,7 +33,8 @@ namespace UsermanagementService
         {
             services.AddDbContext<UserDbContext>(t=>t.UseNpgsql(Configuration.GetConnectionString("PostgreSqlConnectionString")));
             services.AddTransient<IUserRepository,UserRepository>();
-            services.AddControllers();
+            services.AddControllers()
+            .AddFluentValidation(t=>t.RegisterValidatorsFromAssemblyContaining<UserValidator>());
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "UsermanagementService", Version = "v1" });
